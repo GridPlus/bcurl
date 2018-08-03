@@ -24,7 +24,7 @@
     "webpack": "webpack --mode production --config webpack.config.js"
   },
   "dependencies": {
-    "@gridplus/brq": "git+ssh://git@github.com:gridplus/brq.git"
+    "@gridplus/brq": "0.1.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",

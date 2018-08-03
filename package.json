@@ -1,5 +1,5 @@
 {
-  "name": "bcurl",
+  "name": "@gridplus/bcurl",
   "version": "0.1.1",
   "description": "Web client bike-shed",
   "keywords": [
@@ -49,5 +49,8 @@
     "transform": [
       "babelify"
     ]
+  },
+  "publishConfig": {
+    "registry": "https://nexus.gridpl.us/repository/npm-private/"
   }
 }

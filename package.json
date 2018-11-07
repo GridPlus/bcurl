@@ -1,7 +1,7 @@
 {
-  "name": "@gridplus/bcurl",
+  "name": "gridplus-bcurl",
   "version": "0.1.1",
-  "description": "Web client bike-shed",
+  "description": "(Grid+ Fork) Web client bike-shed",
   "keywords": [
     "http",
     "request",
@@ -24,7 +24,7 @@
     "webpack": "webpack --mode production --config webpack.config.js"
   },
   "dependencies": {
-    "@gridplus/brq": "0.1.2"
+    "gridplus-brq": "0.1.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -49,8 +49,5 @@
     "transform": [
       "babelify"
     ]
-  },
-  "publishConfig": {
-    "registry": "https://nexus.gridpl.us/repository/npm-private/"
   }
 }
